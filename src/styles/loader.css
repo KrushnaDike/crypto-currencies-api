@@ -1,0 +1,28 @@
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.loading > div {
+    width: 200px;
+    height: 200px;
+    border-bottom: 4px solid black;
+    border-radius: 50%;
+
+    animation: rotation 0.5s infinite ease-in;
+}
+
+.loading > p {
+    font: 400 2rem sans-serif;
+    margin: 3rem;
+}
+
+@keyframes rotation {
+    to {
+        transform: rotateZ(360deg);
+    }
+}

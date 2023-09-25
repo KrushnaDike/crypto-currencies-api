@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header css */
+.heading {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    font: 600 1.3rem sans-serif;
+    color: rgb(50, 50, 211);
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.home {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
